@@ -7,12 +7,12 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: yarn-cache-v1-{{ checksum "yarn.json" }}
+          key: yarn-cache-v1-{{ checksum "yarn.lock" }}
       - run:
           name: Install Dependencies
-          command: yarn ci
+          command: yarn
       - save_cache:
-          key: yarn-cache-v1-{{ checksum "yarn.json" }}
+          key: yarn-cache-v1-{{ checksum "yarn.lock" }}
           paths:
             - /home/circleci/.yarn
       - run:
