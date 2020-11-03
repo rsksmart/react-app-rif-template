@@ -19,4 +19,9 @@ describe('App test', () => {
     const wrapper = shallow(<App />)
     expect(wrapper.find('a').text()).toBe('Learn React')
   })
+
+  it('fails the test to see if CI catches it.', () => {
+    const wrapper = shallow(<App />)
+    expect(wrapper.find('a').text()).toBe('Learn React yo!')
+  })
 })
