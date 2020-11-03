@@ -17,4 +17,10 @@ jobs:
             - /home/circleci/.yarn
       - run:
           name: Run Tests
-          command: yarn test
+          command: yarn test:ci
+      - run:
+          name: Run Coverage
+          command: yarn test:coverage
+      - run:
+          name: Run Lint
+          command: yarn lint
