@@ -1,5 +1,3 @@
-![React Template Typescript CircleCI](https://circleci.com/gh/jessgusclark/react-template-typescript.svg?style=svg)
-
 <p align="middle">
   <img src="https://www.rifos.org/assets/img/logo.svg" alt="logo" height="100" >
 </p>
