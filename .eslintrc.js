@@ -27,11 +27,13 @@ module.exports = {
     'jest/no-identical-title': 'error',
     'jest/prefer-to-have-length': 'warn',
     'jest/valid-expect': 'error',
-    'react/prop-types': 'off'
+    'react/prop-types': 'off',
+    'no-unused-vars': 'warn'
   },
   settings: {
     react: {
       version: 'latest'
-    }
+    },
+
   }
 }
