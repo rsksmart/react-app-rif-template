@@ -9,6 +9,12 @@
   <a href="https://circleci.com/gh/jessgusclark/react-template-typescript">
     <img src="https://img.shields.io/circleci/build/github/jessgusclark/react-template-typescript?label=CircleCI" alt="npm" />
   </a>
+  <a href="https://lgtm.com/projects/g/jessgusclark/react-template-typescript/alerts/">
+    <img src="https://img.shields.io/lgtm/alerts/github/jessgusclark/react-template-typescript" alt="Alerts">
+  </a>
+  <a href="https://lgtm.com/projects/g/jessgusclark/react-template-typescript/context:javascript">
+    <img src="https://img.shields.io/lgtm/grade/javascript/github/jessgusclark/react-template-typescript" alt="Code Quality">
+  </a>
 </p>
 
 
