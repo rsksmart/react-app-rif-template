@@ -34,7 +34,7 @@ You will also see any lint errors in the console.
 
 Runs the tests, displays coverage, and runs the linter. See below for more specific commands
 
-#### `yarn test:watch
+#### `yarn test:watch`
 
 Launches the test runner in the interactive watch mode.
 
