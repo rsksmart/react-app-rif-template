@@ -1,8 +1,26 @@
-![React Template Typescript CircleCI](https://circleci.com/gh/jessgusclark/react-template-typescript.svg?style=svg)
+<p align="middle">
+  <img src="https://www.rifos.org/assets/img/logo.svg" alt="logo" height="100" >
+</p>
+<h3 align="middle"><code>React App Template</code></h3>
+<p align="middle">
+  Create React App Typescript Template
+</p>
+<p align="middle">
+  <a href="https://circleci.com/gh/jessgusclark/react-template-typescript">
+    <img src="https://img.shields.io/circleci/build/github/jessgusclark/react-template-typescript?label=CircleCI" alt="npm" />
+  </a>
+  <a href="https://lgtm.com/projects/g/jessgusclark/react-template-typescript/alerts/">
+    <img src="https://img.shields.io/lgtm/alerts/github/jessgusclark/react-template-typescript" alt="Alerts">
+  </a>
+  <a href="https://lgtm.com/projects/g/jessgusclark/react-template-typescript/context:javascript">
+    <img src="https://img.shields.io/lgtm/grade/javascript/github/jessgusclark/react-template-typescript" alt="Code Quality">
+  </a>
+</p>
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Create React App with TypeScript, Eslint, CircleCI, and Enzyme
+
+This project was bootstrapped with the Typescript tempalte of [Create React App](https://github.com/facebook/create-react-app) and added Eslint, CircleCI, and Enzyme testing utility.
 
 ## Available Scripts
 
@@ -10,16 +28,27 @@ In the project directory, you can run:
 
 ### `yarn start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Runs the tests, displays coverage, and runs the linter. See below for more specific commands
+
+#### `yarn test:watch`
+
+Launches the test runner in the interactive watch mode.
+
+#### `yarn test:test:coverage`
+
+Runs the test coverage and saves the report in the`coverage` folder. 
+
+#### `yarn lint`
+
+Runs the linter and returns status.
 
 ### `yarn build`
 
@@ -30,19 +59,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
