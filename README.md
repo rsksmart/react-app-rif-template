@@ -42,7 +42,7 @@ Runs the tests, displays coverage, and runs the linter. See below for more speci
 
 Launches the test runner in the interactive watch mode.
 
-#### `yarn test:test:coverage`
+#### `yarn test:coverage`
 
 Runs the test coverage and saves the report in the`coverage` folder. 
 

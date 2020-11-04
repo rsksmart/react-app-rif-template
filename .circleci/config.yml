@@ -19,8 +19,9 @@ jobs:
           name: Run Tests
           command: yarn test:ci
       - run:
-          name: Run Coverage
-          command: yarn test:coverage
-      - run:
           name: Run Lint
-          command: yarn lint
+          command: yarn lint:ci
+      - store_test_results:
+          path: ./reports/
+      - store_artifacts:
+          path: ./reports/
