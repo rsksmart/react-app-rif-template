@@ -39,7 +39,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false & yarn test:coverage & yarn lint",
-    "test:ci": "react-scripts test --verbose --coverage --collectCoverageFrom=src/**/* --coverageDirectory reports --maxWorkers=2",
+    "test:ci": "react-scripts test --verbose --coverage --collectCoverageFrom=\"src/**/*.{js,jsx,ts,tsx}\" --coverageDirectory reports --maxWorkers=2",
     "test:watch": "react-scripts test",
     "test:coverage": "react-scripts test --coverage --runInBand --watchAll=false",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
