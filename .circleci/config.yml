@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  test-lint:
+  build:
     working_directory: ~/tmp
     docker:
       - image: circleci/node:12
