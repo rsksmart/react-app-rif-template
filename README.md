@@ -3,7 +3,7 @@
 </p>
 <h3 align="middle"><code>react-app-rif-template</code></h3>
 <p align="middle">
-  React.js template with Typescript, Eslint, Enzyme and CircleCI
+  React.js template with Typescript, Sass, Enzyme, ESlint and CircleCI
 </p>
 <p align="middle">
   <a href="https://circleci.com/gh/rsksmart/react-app-rif-template">
