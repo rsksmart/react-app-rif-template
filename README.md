@@ -31,11 +31,11 @@ This repo is to be used as a tempalte. It has setup for the tools mentioned abov
 1. Create a new repo using this one as a template
 
   ![Update Shield URLs](../main/docs/use-template-button.jpg)
-  
+
 2. Update the shields on the header to point your urls
 
   ![Update Shield URLs](../main/docs/update-badge-urls.jpg)
-  
+
 3. Start coding!
 
 ## Available Scripts
@@ -66,7 +66,7 @@ Launches the test runner in the interactive watch mode.
 
 #### `yarn test:coverage`
 
-Runs the test coverage and saves the report in the`coverage` folder. 
+Runs the test coverage and saves the report in the`coverage` folder.
 
 #### `yarn lint`
 
