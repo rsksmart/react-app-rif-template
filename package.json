@@ -5,8 +5,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --verbose --coverage --watchAll=false --collectCoverageFrom=\"src/**/*.{js,jsx,ts,tsx}\"",
-    "test:ci": "react-scripts test --verbose --coverage --watchAll=false --collectCoverageFrom=\"src/**/*.{js,jsx,ts,tsx}\" --coverageDirectory reports --maxWorkers=2",
+    "test": "react-scripts test --verbose --coverage --watchAll=false",
+    "test:ci": "react-scripts test --verbose --coverage --watchAll=false --coverageDirectory reports --maxWorkers=2",
     "test:watch": "react-scripts test",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint:ci": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --format junit --output-file ./reports/eslint.xml"
