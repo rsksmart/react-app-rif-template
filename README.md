@@ -6,8 +6,8 @@
   React.js template with Typescript, Sass, Enzyme, ESlint and CircleCI
 </p>
 <p align="middle">
-  <a href="https://circleci.com/gh/rsksmart/react-app-rif-template">
-    <img src="https://img.shields.io/circleci/build/github/rsksmart/react-app-rif-template?label=CircleCI" alt="npm" />
+  <a href="https://github.com/rsksmart/react-app-rif-template/actions/workflows/ci.yml">
+    <img src="https://github.com/rsksmart/react-app-rif-template/actions/workflows/ci.yml/badge.svg" alt="npm" />
   </a>
   <a href="https://lgtm.com/projects/g/rsksmart/react-app-rif-template/alerts/">
     <img src="https://img.shields.io/lgtm/alerts/github/rsksmart/react-app-rif-template" alt="Alerts">
